@@ -1,0 +1,72 @@
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+  }
+body{
+  background-color: rgb(244, 247, 249);
+}
+#hero {
+background-image: url('d11.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 100vw; /* Full viewport width */
+height: 100vh; /* Full viewport height */
+padding: 60px 0;
+color: #f5ebeb;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+#hero {
+  padding: 30px 0;
+  background-position: center;
+  background-size: cover;
+}
+
+.d-grid {
+  flex-direction: column; /* Stack buttons vertically on smaller screens */
+}
+}
+
+
+  /* Add gap between hero and pics section */
+  #pics {
+    margin-top: 50px;
+    
+  }
+
+  /* Optional: Add more styling to the sample work title */
+  #sample-work-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  .typing-text {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2.5rem;
+  }
+}
+.transition {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.transition:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  background-color: rgba(0, 123, 255, 0.8); /* Slightly change background color */
+}
+.custom-width {
+    width: 250px; 
+    height: 35px;
+    display: inline; 
+}
